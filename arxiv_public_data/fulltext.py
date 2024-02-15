@@ -12,7 +12,7 @@ from arxiv_public_data.config import LOGGER
 from arxiv_public_data import fixunicode, pdfstamp
 
 log = LOGGER.getChild('fulltext')
-TIMELIMIT = 2*60
+TIMELIMIT = 3*60
 STAMP_SEARCH_LIMIT = 1000
 
 PDF2TXT = 'pdf2txt.py'
